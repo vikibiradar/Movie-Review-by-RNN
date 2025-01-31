@@ -35,6 +35,7 @@ def predict_sentiment(review):
 
 import streamlit as st
 #Streamlit app
+st.set_page_config(page_title="Movie Sentiment Predictor", layout="wide")
 st.title("IMDB Movie Review Sentiment Analysis")
 st.write("Enter a Movie Review to classify it as positive or negative")
 #user input
