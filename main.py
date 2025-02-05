@@ -10,7 +10,7 @@ reversed_word_index={value:key for key,value in word_index.items()}
 
 #Loading Model
 model=load_model('imbd_model.h5')
-
+#
 # Step 2: Helper Functions
 # Function to decode reviews
 def decode_review(encoded_review):
